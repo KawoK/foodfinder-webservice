@@ -1,0 +1,10 @@
+insert into Canteen (id,nama_canteen, location) values (0,"kantinSaraga","Saraga");
+insert into Canteen (id,nama_canteen, location) values (1,"kantinBorju","GedungKimia");
+insert into Canteen (id,nama_canteen, location) values (2,"kantinGKUBarat","GKUBarat");
+insert into Canteen (id,nama_canteen, location) values (3,"kantinGKUTimur","GKUTimur");
+insert into Canteen (id,nama_canteen, location) values (4,"kantinEtitu","CCTimur");
+insert into Canteen (id,nama_canteen, location) values (5,"kantinCCBarat","CCBarat");
+insert into Canteen (id,nama_canteen, location) values (6,"kantinLabtekBiru","SITH");
+insert into Canteen (id,nama_canteen, location) values (7,"kantinEastCorner","FTTM");
+insert into Canteen (id,nama_canteen, location) values (8,"kantinSalman","Salman");
+insert into Canteen (id,nama_canteen, location) values (9,"TokemaSBM","SBM");
