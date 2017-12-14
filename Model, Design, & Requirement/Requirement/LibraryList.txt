@@ -1,0 +1,9 @@
+[LIST Import Library yang digunakan]
+
+- fmt
+- log
+- net/http
+- encoding/json
+- database/sql
+- github.com/gorilla/mux
+- github.com/go-sql-driver/mysql

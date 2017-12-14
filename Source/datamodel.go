@@ -9,13 +9,13 @@ type Food struct {
     ID        		string   	`json:"id,omitempty"`
     Nama_makanan 	string   	`json:"Nama_makanan,omitempty"`
     Harga  			string   	`json:"Harga,omitempty"`
-    
+    Nama_canteen	string		`json:"Nama_canteen,omitempty"`
 }
 type Drink struct {
     ID        		string   `json:"id,omitempty"`
     Nama_minuman 	string   `json:"Nama_minuman,omitempty"`
     Harga  			string   `json:"Harga,omitempty"`
-    
+ 	Nama_canteen	string		`json:"Nama_canteen,omitempty"`   
 }
 type Canteen struct {
     ID       		string   `json:"id,omitempty"`

@@ -1,0 +1,22 @@
+Berikut ini merupakan fungsi-fungsi yang harus dibuat dalam web service foodfinder.
+Fungsi-fungsi tersebut dibagi menjadi beberapa jenis, yaitu 
+1. Fungsi dasar
+	a. Fungsi GET data 
+		- GetAllMakanan		: Mendapatkan data seluruh makanan dari basisdata dengan menggunakan HTTP GET METHOD
+		- GetAllMinuman		: Mendapatkan data seluruh minuman dari basisdata dengan menggunakan HTTP GET METHOD
+		- GetAllCanteen		: Mendapatkan data seluruh kantin dari basisdata dengan menggunakan HTTP GET METHOD
+	b. Fungsi POST 1 data
+		- AddMakanan		: Menambahkan data 1 makanan ke dalam basisdata
+		- AddMinuman		: Menambahkan data 1 minuman ke dalam basisdata
+		- AddCanteen		: Menambahkan data 1 kantin ke dalam basisdata
+	c. Fungsi DELETE 1 data  
+		- DeleteFood		: Menghapus data 1 makanan dari  basisdata
+		- DeleteDrink		: Menghapus data 1 minuman dari  basisdata
+		- DeleteCanteen		: Menghapus data 1 kantin dari  basisdata
+
+2. Fungsi utama
+	a. Fungsi suggestion makanan 				: Mengembalikan list berupa makanan berdasarkan input makanan
+	b. Fungsi suggestion minuman 				: Mengembalikan list berupa minuman berdasarkan input harga
+	c. Fungsi suggestion 1 makanan & 1 minuman 	: Mengembalikan list berupa makanan dan minuman yang dapat dibeli berdasarkan input harga
+	d. Fungsi getLowestHargaMakanan 			: Mengambalikan nilai harga terendah yang terdapatdalam daftar harga makanan 
+	d. Fungsi getLowestHargaMinuman 			: Mengambalikan nilai harga terendah yang terdapatdalam daftar harga minuman 
